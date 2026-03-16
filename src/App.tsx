@@ -27,7 +27,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <BrowserRouter basename="/bloodlink">
+          <BrowserRouter basename={import.meta.env.BASE_URL}>
             <AuthProvider>
               <Routes>
                 <Route path="/" element={<Landing />} />
