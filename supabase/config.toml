@@ -1,0 +1,13 @@
+project_id = "xfmdjqyljcqzuusvcutu"
+
+[functions.blood-search]
+verify_jwt = false
+
+[functions.first-aid]
+verify_jwt = false
+
+[functions.process-email-queue]
+verify_jwt = true
+
+[functions.match-ai]
+verify_jwt = false
