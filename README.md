@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ad574f8a-22da-47e4-a28f-99a3dd112ae5" alt="BloodLink Banner" width="100%" />
+  <img src="./src/assets/bloodlink-logo.png" alt="BloodLink Logo" width="300" />
 
   # 🩸 BloodLink
   **Emergency Blood Response & Health Network**
