@@ -69,7 +69,7 @@ const Landing = () => {
                 to="/donor"
                 className="w-full sm:w-auto bg-card text-foreground px-8 py-4 rounded-2xl font-bold text-lg shadow-surface border border-border hover:shadow-surface-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
               >
-                {t("I'm a Donor")}
+                {t("I'm a Donor / Recipient")}
               </Link>
             </div>
           </motion.div>

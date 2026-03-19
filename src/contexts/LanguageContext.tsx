@@ -9,7 +9,7 @@ const translations = {
   'We manage the seconds.': { bn: 'আমরা সেকেন্ড সামলাই।' },
   'AI-powered platform connecting hospitals, blood banks, and donors in real-time. Every second counts in a blood emergency.': { bn: 'এআই-চালিত প্ল্যাটফর্ম যা হাসপাতাল, ব্লাড ব্যাংক এবং রক্তদাতাদের রিয়েল-টাইমে সংযুক্ত করে। রক্তের জরুরি অবস্থায় প্রতিটি সেকেন্ড গুরুত্বপূর্ণ।' },
   'Hospital Dashboard': { bn: 'হাসপাতাল ড্যাশবোর্ড' },
-  "I'm a Donor": { bn: 'আমি রক্তদাতা/গ্রহীতা' },
+  "I'm a Donor / Recipient": { bn: 'আমি রক্তদাতা/গ্রহীতা' },
   'Features': { bn: 'বৈশিষ্ট্য' },
   'Impact': { bn: 'প্রভাব' },
   'How It Works': { bn: 'কিভাবে কাজ করে' },
@@ -43,7 +43,7 @@ const translations = {
   'Join the emergency blood response network.': { bn: 'জরুরি রক্ত সরবরাহ নেটওয়ার্কে যোগ দিন।' },
   'Every drop counts': { bn: 'প্রতিটি ফোঁটা গুরুত্বপূর্ণ' },
   'Join the network that connects donors to hospitals in minutes, not hours.': { bn: 'মিনিটের মধ্যে রক্তদাতাদের হাসপাতালে সংযুক্ত করে এমন নেটওয়ার্কে যোগ দিন।' },
-  'donor': { bn: 'রক্তদাতা/গ্রহীতা' },
+  'donor / recipient': { bn: 'রক্তদাতা/গ্রহীতা' },
   'hospital': { bn: 'হাসপাতাল' },
   'admin': { bn: 'অ্যাডমিন' },
   'Full Name': { bn: 'পুরো নাম' },
@@ -120,7 +120,7 @@ const translations = {
 
   // Sidebar
   'Home': { bn: 'হোম' },
-  'Donor': { bn: 'রক্তদাতা/গ্রহীতা' },
+  'Donor / Recipient': { bn: 'রক্তদাতা/গ্রহীতা' },
   'Hospital': { bn: 'হাসপাতাল' },
   'Admin': { bn: 'অ্যাডমিন' },
 
