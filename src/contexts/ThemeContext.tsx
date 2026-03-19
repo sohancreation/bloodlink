@@ -15,7 +15,7 @@ const ThemeContext = createContext<ThemeContextType>({
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(() => {
     if (typeof window !== 'undefined') {
-      return (localStorage.getItem('bloodlink-theme') as Theme) || 'light';
+      return (localStorage.getItem('Redova-theme') as Theme) || 'light';
     }
     return 'light';
   });
@@ -27,7 +27,7 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     } else {
       root.classList.remove('dark');
     }
-    localStorage.setItem('bloodlink-theme', theme);
+    localStorage.setItem('Redova-theme', theme);
   }, [theme]);
 
   const toggleTheme = () => setTheme(prev => prev === 'light' ? 'dark' : 'light');

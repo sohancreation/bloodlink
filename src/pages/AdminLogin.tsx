@@ -44,7 +44,7 @@ const AdminLogin = () => {
             <Shield className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-2xl font-bold text-foreground">Admin Panel</h1>
-          <p className="text-sm text-muted-foreground mt-1">BloodLink Administration</p>
+          <p className="text-sm text-muted-foreground mt-1">Redova Administration</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

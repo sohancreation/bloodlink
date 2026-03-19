@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Timer, MapPin, Clock, Truck } from 'lucide-react';
-import { DonorMatchETA } from '@/types/bloodlink';
+import { DonorMatchETA } from '@/types/Redova';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 interface ETABreakdownProps {

@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import bloodlinkLogo from '@/assets/bloodlink-logo.png';
+import RedovaLogo from '@/assets/redova-logo.png';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Heart, Mail, Lock, User, Phone, MapPin, Building2, Eye, EyeOff } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { SettingsBar } from '@/components/bloodlink/SettingsBar';
+import { SettingsBar } from '@/components/redova/SettingsBar';
 import { toast } from 'sonner';
-import { LocationSelector } from '@/components/bloodlink/LocationSelector';
+import { LocationSelector } from '@/components/redova/LocationSelector';
 
 type UserRole = 'donor' | 'hospital' | 'admin';
 type BloodType = 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
@@ -138,9 +138,9 @@ const Login = () => {
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-2 lg:hidden">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <img src={bloodlinkLogo} alt="BloodLink" className="w-8 h-8 object-contain" />
+                <img src={RedovaLogo} alt="Redova" className="w-8 h-8 object-contain" />
               </div>
-              <span className="font-bold text-lg text-foreground">BloodLink</span>
+              <span className="font-bold text-lg text-foreground">Redova</span>
             </div>
             <SettingsBar />
           </div>

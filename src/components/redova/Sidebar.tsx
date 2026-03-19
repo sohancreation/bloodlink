@@ -1,7 +1,7 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Heart, Building2, Shield, LogOut, Droplets, LayoutDashboard, Search, PlusCircle, Clock, MapPin, Stethoscope, Activity, Coins, Crown } from 'lucide-react';
-import bloodlinkLogo from '@/assets/bloodlink-logo.png';
+import RedovaLogo from '@/assets/redova-logo.png';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useAuth } from '@/contexts/AuthContext';
 
@@ -65,7 +65,7 @@ const Sidebar = () => {
     <nav className="relative flex flex-col items-center py-6 bg-card rounded-3xl shadow-surface h-full border border-border/70">
       <div className="pointer-events-none absolute top-4 bottom-4 right-0 w-1 rounded-full bg-gradient-to-b from-destructive/20 via-destructive to-destructive/20" />
       <Link to={homePath} className="mb-8">
-        <img src={bloodlinkLogo} alt="BloodLink" className="w-10 h-10 rounded-xl object-contain" />
+        <img src={RedovaLogo} alt="Redova" className="w-10 h-10 rounded-xl object-contain" />
       </Link>
 
       <div className="flex-1 flex flex-col gap-1">

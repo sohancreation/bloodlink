@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Users, Building2, Activity, Heart, TrendingUp, Clock, Coins, ShieldCheck, X, User, Trash2, Gift, Search, Bell, CreditCard, LogOut, Shield } from 'lucide-react';
-import { SettingsBar } from '@/components/bloodlink/SettingsBar';
-import { BloodTypeBadge } from '@/components/bloodlink/BloodTypeBadge';
+import { SettingsBar } from '@/components/redova/SettingsBar';
+import { BloodTypeBadge } from '@/components/redova/BloodTypeBadge';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
 import { useNavigate } from 'react-router-dom';
-import bloodlinkLogo from '@/assets/bloodlink-logo.png';
+import RedovaLogo from '@/assets/redova-logo.png';
 
 type Tab = 'overview' | 'users' | 'hospitals' | 'payments';
 
@@ -307,7 +307,7 @@ const AdminDashboard = () => {
       {/* Top Bar */}
       <div className="sticky top-0 z-50 bg-card border-b border-border px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src={bloodlinkLogo} alt="BloodLink" className="w-8 h-8 rounded-lg object-contain" />
+          <img src={RedovaLogo} alt="Redova" className="w-8 h-8 rounded-lg object-contain" />
           <div>
             <h1 className="text-lg font-bold text-foreground flex items-center gap-2">
               <Shield className="w-4 h-4 text-primary" /> Admin Panel

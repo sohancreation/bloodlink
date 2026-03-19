@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? (process.env.NETLIFY === "true" ? "/" : "/bloodlink/") : "/",
+  base: mode === "production" ? (process.env.NETLIFY === "true" ? "/" : "/redova/") : "/",
   server: {
     host: "::",
     port: 8080,

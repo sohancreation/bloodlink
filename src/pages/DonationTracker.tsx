@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Heart, Calendar, Clock, CheckCircle, AlertTriangle, Activity, Droplets, Shield, Sparkles, Trophy, Loader2 } from 'lucide-react';
-import { Sidebar } from '@/components/bloodlink/Sidebar';
+import { Sidebar } from '@/components/redova/Sidebar';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { supabase } from '@/integrations/supabase/client';

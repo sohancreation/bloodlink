@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AlertTriangle, Send, Loader2, ShieldAlert, Stethoscope, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { Sidebar } from '@/components/bloodlink/Sidebar';
+import { Sidebar } from '@/components/redova/Sidebar';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';

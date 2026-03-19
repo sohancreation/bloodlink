@@ -108,7 +108,7 @@ const translations = {
 
   // Admin Dashboard
   'Admin Panel': { bn: 'অ্যাডমিন প্যানেল' },
-  'BloodLink · System Overview': { bn: 'ব্লাডলিংক · সিস্টেম ওভারভিউ' },
+  'Redova · System Overview': { bn: 'রেডোভা · সিস্টেম ওভারভিউ' },
   'Total Donors / Recipients': { bn: 'মোট রক্তদাতা/গ্রহীতা' },
   'Hospitals': { bn: 'হাসপাতাল' },
   'Lives Impacted_short': { bn: 'প্রভাবিত জীবন' },

@@ -1,4 +1,4 @@
-import { Donor, Hospital, BloodRequest, BloodInventory, Donation, SystemStats } from '@/types/bloodlink';
+import { Donor, Hospital, BloodRequest, BloodInventory, Donation, SystemStats } from '@/types/Redova';
 
 export const mockDonors: Donor[] = [
   { id: 'd1', fullName: 'Arif Rahman', bloodType: 'O-', phone: '+880171234567', email: 'arif@email.com', city: 'Rajshahi', latitude: 24.3745, longitude: 88.6042, lastDonationDate: '2025-11-15', isAvailable: true, donationCount: 8 },

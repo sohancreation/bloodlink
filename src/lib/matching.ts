@@ -1,4 +1,4 @@
-import { Donor, BloodRequest, DonorMatch, BloodType, DonorMatchETA } from '@/types/bloodlink';
+import { Donor, BloodRequest, DonorMatch, BloodType, DonorMatchETA } from '@/types/Redova';
 
 const BLOOD_COMPATIBILITY: Record<BloodType, BloodType[]> = {
   'O-': ['O-', 'O+', 'A-', 'A+', 'B-', 'B+', 'AB-', 'AB+'],

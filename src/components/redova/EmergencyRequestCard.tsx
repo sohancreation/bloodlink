@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { URGENCY_CONFIG } from '@/data/mock-data';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Timer, X, Phone, MapPin, User } from 'lucide-react';
-import { DonorMatchETA } from '@/types/bloodlink';
+import { DonorMatchETA } from '@/types/Redova';
 
 interface EmergencyRequestCardProps {
   request: any;

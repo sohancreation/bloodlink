@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="./src/assets/bloodlink-logo.png" alt="BloodLink Logo" width="300" />
+  <img src="./src/assets/redova-logo.png" alt="Redova Logo" width="300" />
 
-  # 🩸 BloodLink
+  # 🩸 Redova
   **Emergency Blood Response & Health Network**
 
   [![React](https://img.shields.io/badge/React-18.3-blue.svg?style=for-the-badge&logo=react)](https://reactjs.org/)
@@ -15,9 +15,9 @@
 
 ## 📖 Overview
 
-**BloodLink** is an AI-powered emergency health and blood response platform designed to bridge the gap between those in critical need and those who can help. 
+**Redova** is an AI-powered emergency health and blood response platform designed to bridge the gap between those in critical need and those who can help. 
 
-By seamlessly connecting blood donors, patients, hospitals, blood banks, pharmacies, and ambulances in real-time, BloodLink ensures that life-saving resources are always just a click away.
+By seamlessly connecting blood donors, patients, hospitals, blood banks, pharmacies, and ambulances in real-time, Redova ensures that life-saving resources are always just a click away.
 
 ---
 
@@ -63,8 +63,8 @@ Follow these steps to set up the project locally on your machine.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/sohancreation/bloodlink.git
-cd bloodlink
+git clone https://github.com/sohancreation/Redova.git
+cd Redova
 ```
 
 ### 2. Install dependencies
@@ -100,7 +100,7 @@ This command generates static assets into the `dist/` folder, ready for deployme
 
 ## 🚀 Deployment (GitHub Pages)
 
-This project features automated deployments. Simply push your code to the `main` branch, and GitHub Actions will handle the build and deploy process directly to [GitHub Pages](https://sohancreation.github.io/bloodlink/).
+This project features automated deployments. Simply push your code to the `main` branch, and GitHub Actions will handle the build and deploy process directly to [GitHub Pages](https://sohancreation.github.io/redova/).
 
 *Note: The React Router is explicitly configured using `import.meta.env.BASE_URL` to flawlessly support GitHub Pages sub-directory pathing.*
 
@@ -108,7 +108,7 @@ This project features automated deployments. Simply push your code to the `main`
 
 ## 🤝 Contributing
 
-We welcome contributions to make BloodLink better!
+We welcome contributions to make Redova better!
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)

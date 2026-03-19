@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import bloodlinkLogo from '@/assets/bloodlink-logo.png';
+import RedovaLogo from '@/assets/redova-logo.png';
 import { Link } from 'react-router-dom';
 import { Heart, Zap, MapPin, Clock, ArrowRight, Users, Building2, Activity } from 'lucide-react';
 import { mockStats } from '@/data/mock-data';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { SettingsBar } from '@/components/bloodlink/SettingsBar';
+import { SettingsBar } from '@/components/redova/SettingsBar';
 
 const Landing = () => {
   const { t } = useLanguage();
@@ -16,9 +16,9 @@ const Landing = () => {
         <div className="container mx-auto flex items-center justify-between h-16 px-6">
           <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <img src={bloodlinkLogo} alt="BloodLink" className="w-8 h-8 object-contain" />
+              <img src={RedovaLogo} alt="Redova" className="w-8 h-8 object-contain" />
             </div>
-            <span className="font-bold text-lg text-foreground">BloodLink</span>
+            <span className="font-bold text-lg text-foreground">Redova</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
             <a href="#features" className="hover:text-foreground transition-colors">{t('Features')}</a>
@@ -236,8 +236,8 @@ const Landing = () => {
       <footer className="py-10 px-6 border-t border-border">
         <div className="container mx-auto max-w-5xl flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <img src={bloodlinkLogo} alt="BloodLink" className="w-6 h-6 object-contain" />
-            <span className="text-sm font-bold text-foreground">BloodLink</span>
+            <img src={RedovaLogo} alt="Redova" className="w-6 h-6 object-contain" />
+            <span className="text-sm font-bold text-foreground">Redova</span>
           </div>
           <p className="text-xs text-muted-foreground">
             {t('Emergency Blood Response Network · University Case Competition Prototype')}

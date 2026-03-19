@@ -6,7 +6,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { supabase } from '@/integrations/supabase/client';
 import { toast } from 'sonner';
-import bloodlinkLogo from '@/assets/bloodlink-logo.png';
+import RedovaLogo from '@/assets/redova-logo.png';
 
 const PHONE_NUMBER = '01706028192';
 
@@ -95,8 +95,8 @@ const PaymentPage = () => {
       <header className="border-b border-border bg-card">
         <div className="container mx-auto flex items-center justify-between h-16 px-6">
           <Link to="/hospital" className="flex items-center gap-2">
-            <img src={bloodlinkLogo} alt="BloodLink" className="w-8 h-8 object-contain" />
-            <span className="font-bold text-lg text-foreground">BloodLink</span>
+            <img src={RedovaLogo} alt="Redova" className="w-8 h-8 object-contain" />
+            <span className="font-bold text-lg text-foreground">Redova</span>
           </Link>
           <Link to="/hospital" className="text-sm text-muted-foreground hover:text-foreground flex items-center gap-1">
             <ArrowLeft className="w-4 h-4" /> {t('Back')}

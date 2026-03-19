@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { DonorMatch } from '@/types/bloodlink';
+import { DonorMatch } from '@/types/Redova';
 import { BloodTypeBadge } from './BloodTypeBadge';
 import { MapPin, Clock, Timer } from 'lucide-react';
 

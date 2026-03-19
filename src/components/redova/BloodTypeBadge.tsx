@@ -1,5 +1,5 @@
 import { BLOOD_TYPE_COLORS } from '@/data/mock-data';
-import { BloodType } from '@/types/bloodlink';
+import { BloodType } from '@/types/Redova';
 
 interface BloodTypeBadgeProps {
   type: BloodType;

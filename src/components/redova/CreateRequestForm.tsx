@@ -4,7 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { supabase } from '@/integrations/supabase/client';
 import { useAuth } from '@/contexts/AuthContext';
 import { toast } from 'sonner';
-import { LocationSelector } from '@/components/bloodlink/LocationSelector';
+import { LocationSelector } from '@/components/redova/LocationSelector';
 
 const BLOOD_TYPES = ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'] as const;
 type BloodTypeVal = typeof BLOOD_TYPES[number];

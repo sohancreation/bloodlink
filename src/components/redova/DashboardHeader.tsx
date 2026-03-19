@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Droplets } from 'lucide-react';
-import bloodlinkLogo from '@/assets/bloodlink-logo.png';
+import RedovaLogo from '@/assets/redova-logo.png';
 
 interface DashboardHeaderProps {
   subtitle: string;
@@ -21,7 +21,7 @@ export const DashboardHeader = ({ subtitle, children }: DashboardHeaderProps) =>
       <div className="flex items-center gap-3">
         <div className="relative shrink-0">
           <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-primary/5 border border-primary/10 flex items-center justify-center">
-            <img src={bloodlinkLogo} alt="BloodLink" className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
+            <img src={RedovaLogo} alt="Redova" className="w-7 h-7 sm:w-8 sm:h-8 object-contain" />
           </div>
           <div className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3 sm:h-3 bg-green-500 rounded-full border-2 border-card" />
         </div>

@@ -32,7 +32,7 @@ serve(async (req) => {
       `#${i+1}: ${m.donor.fullName || m.donor.city || 'Donor'} | Blood: ${m.donor.bloodType} | Distance: ${m.distance}km | ETA: ${m.eta.totalMinutes}min | Score: ${(m.score * 100).toFixed(0)}% | Last donation: ${m.donor.lastDonationDate ? Math.floor((Date.now() - new Date(m.donor.lastDonationDate).getTime()) / (1000*60*60*24)) + ' days ago' : 'Unknown'} | Donations: ${m.donor.donationCount || 0}`
     ).join('\n');
 
-    const prompt = `You are BloodLink AI, an emergency blood matching assistant for hospitals in Bangladesh.
+    const prompt = `You are Redova AI, an emergency blood matching assistant for hospitals in Bangladesh.
 
 Analyze this blood request and matched donors. Give a brief, actionable recommendation in Bengali (বাংলা) with key English medical terms.
 
@@ -64,7 +64,7 @@ Keep response under 200 words. Be direct and practical. Mix Bengali and English 
       body: JSON.stringify({
         model: "google/gemini-2.5-flash",
         messages: [
-          { role: "system", content: "You are BloodLink AI, a medical emergency assistant. Always respond in Bengali with English medical terms. Be concise and actionable." },
+          { role: "system", content: "You are Redova AI, a medical emergency assistant. Always respond in Bengali with English medical terms. Be concise and actionable." },
           { role: "user", content: prompt },
         ],
         stream: true,
