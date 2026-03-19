@@ -193,7 +193,7 @@ const HospitalDashboard = () => {
             <StatCard icon={AlertTriangle} label={t('Active Requests')} value={openRequests.length} delay={0} onClick={() => setStatModal('requests')} />
             <StatCard icon={CheckCircle} label={t('Fulfilled Today')} value={myRequests.filter(r => r.status === 'FULFILLED').length} delay={0.1} onClick={() => setStatModal('fulfilled')} />
             <StatCard icon={Package} label={t('Blood Units')} value={myInventory.reduce((s, i) => s + (i.units_available || 0), 0)} delay={0.2} onClick={() => setStatModal('units')} />
-            <StatCard icon={Users} label={t('Donors Nearby')} value={donors.filter(d => d.is_available).length} delay={0.3} onClick={() => setStatModal('donors')} />
+            <StatCard icon={Users} label={t('Donors / Recipients Nearby')} value={donors.filter(d => d.is_available).length} delay={0.3} onClick={() => setStatModal('donors')} />
           </div>
 
           <div className="flex gap-1 bg-secondary p-1 rounded-xl w-full sm:w-fit overflow-x-auto">

@@ -281,7 +281,7 @@ const AdminDashboard = () => {
 
   const TABS: { key: Tab; label: string; icon: any }[] = [
     { key: 'overview', label: 'Overview', icon: Activity },
-    { key: 'users', label: 'Users / Donors', icon: Users },
+    { key: 'users', label: 'Users / Donors / Recipients', icon: Users },
     { key: 'hospitals', label: 'Hospitals', icon: Building2 },
     { key: 'payments', label: 'Payments', icon: CreditCard },
   ];
@@ -364,7 +364,7 @@ const AdminDashboard = () => {
           <div className="space-y-6">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { icon: Users, label: 'Total Donors', value: donorProfiles.length, color: 'text-primary' },
+                { icon: Users, label: 'Total Donors / Recipients', value: donorProfiles.length, color: 'text-primary' },
                 { icon: Building2, label: 'Total Hospitals', value: hospitalProfiles.length, color: 'text-info' },
                 { icon: Activity, label: 'Active Requests', value: requests.filter(r => r.status === 'OPEN').length, color: 'text-warning' },
                 { icon: CreditCard, label: 'Pending Payments', value: totalPending, color: 'text-destructive' },
@@ -425,7 +425,7 @@ const AdminDashboard = () => {
         {/* USERS TAB */}
         {tab === 'users' && (
           <div className="space-y-4">
-            <h2 className="text-lg font-bold text-foreground">All Donors / Users ({filteredDonors.length})</h2>
+            <h2 className="text-lg font-bold text-foreground">All Donors / Recipients / Users ({filteredDonors.length})</h2>
             <div className="bg-card rounded-2xl border border-border overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">

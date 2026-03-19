@@ -81,7 +81,7 @@ const Landing = () => {
         <div className="container mx-auto max-w-5xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { icon: Users, value: mockStats.totalDonors.toLocaleString(), label: t('Active Donors') },
+              { icon: Users, value: mockStats.totalDonors.toLocaleString(), label: t('Active Donors / Recipients') },
               { icon: Building2, value: mockStats.totalHospitals.toString(), label: t('Hospitals Connected') },
               { icon: Activity, value: mockStats.avgResponseTime, label: t('Avg Response Time') },
               { icon: Heart, value: `${(mockStats.livesImpacted / 1000).toFixed(1)}K+`, label: t('Lives Impacted') },
@@ -140,7 +140,7 @@ const Landing = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-display text-3xl md:text-4xl text-foreground mb-3">{t('Simple, transparent pricing')}</h2>
-            <p className="text-muted-foreground">{t('Donors are always free. Hospitals pay per fulfilled request.')}</p>
+            <p className="text-muted-foreground">{t('Donors & Recipients are always free. Hospitals pay per fulfilled request.')}</p>
           </div>
 
           {/* Hospital Monthly Subscriptions */}

@@ -15,7 +15,7 @@ const translations = {
   'How It Works': { bn: 'কিভাবে কাজ করে' },
   'Sign In': { bn: 'সাইন ইন' },
   'Get Started': { bn: 'শুরু করুন' },
-  'Active Donors': { bn: 'সক্রিয় রক্তদাতা' },
+  'Active Donors / Recipients': { bn: 'সক্রিয় রক্তদাতা/গ্রহীতা' },
   'Hospitals Connected': { bn: 'সংযুক্ত হাসপাতাল' },
   'Avg Response Time': { bn: 'গড় প্রতিক্রিয়া সময়' },
   'Lives Impacted': { bn: 'প্রভাবিত জীবন' },
@@ -62,7 +62,7 @@ const translations = {
   'Sign Up': { bn: 'সাইন আপ' },
 
   // Donor Dashboard
-  'Donor Dashboard': { bn: 'রক্তদাতা ড্যাশবোর্ড' },
+  'Donor / Recipient Dashboard': { bn: 'রক্তদাতা/গ্রহীতা ড্যাশবোর্ড' },
   'active requests nearby.': { bn: 'টি সক্রিয় অনুরোধ কাছাকাছি।' },
   'System Ready.': { bn: 'সিস্টেম প্রস্তুত।' },
   'Total Donations': { bn: 'মোট রক্তদান' },
@@ -85,7 +85,7 @@ const translations = {
   'Simulating...': { bn: 'সিমুলেট হচ্ছে...' },
   'Fulfilled Today': { bn: 'আজ পূরণ হয়েছে' },
   'Blood Units': { bn: 'রক্তের ইউনিট' },
-  'Donors Nearby': { bn: 'কাছাকাছি রক্তদাতা' },
+  'Donors / Recipients Nearby': { bn: 'কাছাকাছি রক্তদাতা/গ্রহীতা' },
   'overview': { bn: 'সংক্ষিপ্ত বিবরণ' },
   'inventory': { bn: 'মজুদ' },
   '+ New Request': { bn: '+ নতুন অনুরোধ' },
@@ -109,14 +109,14 @@ const translations = {
   // Admin Dashboard
   'Admin Panel': { bn: 'অ্যাডমিন প্যানেল' },
   'BloodLink · System Overview': { bn: 'ব্লাডলিংক · সিস্টেম ওভারভিউ' },
-  'Total Donors': { bn: 'মোট রক্তদাতা' },
+  'Total Donors / Recipients': { bn: 'মোট রক্তদাতা/গ্রহীতা' },
   'Hospitals': { bn: 'হাসপাতাল' },
   'Lives Impacted_short': { bn: 'প্রভাবিত জীবন' },
   'Avg Response': { bn: 'গড় প্রতিক্রিয়া' },
-  'Donor Distribution': { bn: 'রক্তদাতা বিতরণ' },
+  'Donor / Recipient Distribution': { bn: 'রক্তদাতা/গ্রহীতা বিতরণ' },
   'Recent Requests': { bn: 'সাম্প্রতিক অনুরোধ' },
   'Registered Hospitals': { bn: 'নিবন্ধিত হাসপাতাল' },
-  'Recent Donors': { bn: 'সাম্প্রতিক রক্তদাতা' },
+  'Recent Donors / Recipients': { bn: 'সাম্প্রতিক রক্তদাতা/গ্রহীতা' },
 
   // Sidebar
   'Home': { bn: 'হোম' },
@@ -141,6 +141,8 @@ const translations = {
   'Travel': { bn: 'যাতায়াত' },
   'Declined': { bn: 'প্রত্যাখ্যাত' },
   'Decline': { bn: 'প্রত্যাখ্যান' },
+  'Simple, transparent pricing': { bn: 'সহজ এবং পরিষ্কার মূল্য নির্ধারণ' },
+  'Donors & Recipients are always free. Hospitals pay per fulfilled request.': { bn: 'রক্তদাতা এবং গ্রহীতা সবসময় ফ্রি। প্রতিটি সফল অনুরোধের জন্য হাসপাতাল পেমেন্ট করে।' },
 
   // Donor Search & Services
   'Search Blood': { bn: 'রক্ত খুঁজুন' },
