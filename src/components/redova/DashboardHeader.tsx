@@ -28,7 +28,7 @@ export const DashboardHeader = ({ subtitle, children }: DashboardHeaderProps) =>
         <div className="min-w-0">
           <div className="flex items-center gap-2">
             <h1 className="text-lg sm:text-xl font-extrabold text-foreground tracking-tight">
-              Blood<span className="text-primary">Link</span>
+              Redova<span className="text-primary"> AI</span>
             </h1>
             <Droplets className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary/50" />
           </div>
