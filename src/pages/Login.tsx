@@ -154,7 +154,7 @@ const Login = () => {
 
           {!isLogin && (
             <div className="flex gap-2 mb-6">
-              {([{ key: 'donor', label: 'Donor / গ্রহীতা' }, { key: 'hospital', label: t('hospital') }] as { key: UserRole; label: string }[]).map(r => (
+              {([{ key: 'donor', label: t('Donor') }, { key: 'hospital', label: t('hospital') }] as { key: UserRole; label: string }[]).map(r => (
                 <button
                   key={r.key}
                   type="button"
